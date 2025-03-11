@@ -4,7 +4,7 @@
       "target": {
         "namespace": "android_app",
         "package_name": "com.markweston.scoop",
-        "sha256_cert_fingerprints": ["01:A1:6C:43:47:AC:AF:4D:83:6C:57:92:65:CD:A9:DB:E6:28:0F:76:33:B0:75:7C:01:E3:ED:AA:F5:93:0D:4B"]
+        "sha256_cert_fingerprints": ["CF:4D:D6:EC:63:7E:78:74:F8:C8:30:36:D0:A4:A7:6F:A1:4E:4D:BD:D9:D8:9D:52:5B:7A:46:E5:8A:EE:F8:08"]
       }
     }
   ] 
