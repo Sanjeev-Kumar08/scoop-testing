@@ -1,0 +1,10 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.markweston.scoop",
+        "sha256_cert_fingerprints": ["01:A1:6C:43:47:AC:AF:4D:83:6C:57:92:65:CD:A9:DB:E6:28:0F:76:33:B0:75:7C:01:E3:ED:AA:F5:93:0D:4B"]
+      }
+    }
+  ] 
