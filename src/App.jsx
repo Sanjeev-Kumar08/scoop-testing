@@ -11,8 +11,9 @@ function App() {
 
   return (
     <>
-      <h1>Scoop Testing</h1>
-      <h3>/.well-known/assetlinks.json</h3>
+      {/* <h1>Scoop Testing</h1>
+      <h3>/.well-known/assetlinks.json</h3> */}
+      <p>Redirecting...</p>
     </>
   )
 }
