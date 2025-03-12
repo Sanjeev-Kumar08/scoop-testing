@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Redirect to the app if installed, otherwise go to Play Store
     window.location.href =
-      "intent://scoop-testing.vercel.app/#Intent;scheme=https;package=com.markweston.scoop;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.markweston.scoop&hl=en_IN;end;";
+      "intent://scoop-testing.vercel.app/#Intent;scheme=https;package=com.markweston.scoop;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.markweston.scoop;end;"
   }, []);
 
   return (
