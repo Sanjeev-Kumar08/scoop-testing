@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    // Redirect to the app if installed, otherwise go to Play Store
+    window.location.href =
+      "intent://scoop-testing.vercel.app/#Intent;scheme=https;package=com.markweston.scoop;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.markweston.scoop&hl=en_IN;end;";
+  }, []);
 
   return (
     <>
